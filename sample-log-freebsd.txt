@@ -1,0 +1,42 @@
+Aug 20 18:22:43 freebsd newsyslog[456]: logfile first created
+Aug 20 18:22:44 freebsd sshd[668]: Server listening on :: port 22.
+Aug 20 18:22:44 freebsd sshd[668]: Server listening on 0.0.0.0 port 22.
+Aug 20 18:22:59 freebsd login[748]: login on ttyv0 as user
+Aug 20 18:23:43 freebsd login[764]: login on ttyv0 as user
+Aug 20 18:25:27 freebsd sshd[771]: Accepted keyboard-interactive/pam for user from 10.2.11.13 port 56200 ssh2
+Aug 20 18:27:42 freebsd su[781]: in prompt_tty(): caught signal 2
+Aug 20 18:27:47 freebsd su[784]: user to root on /dev/pts/0
+Aug 21 17:09:53 freebsd sshd[881]: Accepted publickey for user from 10.0.2.2 port 57514 ssh2: RSA SHA256:1M4RzhMyWuFS/86uPY/ce2prh/dVTHW7iD2RhpquOZA
+Aug 21 17:09:55 freebsd sshd[1188]: Accepted publickey for user from 10.0.2.2 port 57515 ssh2: RSA SHA256:nkYz4v5mLAYOkbvr6pTp1E4BSwTLXgpVtHzhJ+53lNQ
+Aug 21 17:09:59 freebsd sudo[1539]:  user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/usr/local/bin/bash -l
+Aug 21 17:10:03 freebsd sshd[1556]: Accepted publickey for user from 10.0.2.2 port 57516 ssh2: RSA SHA256:nkYz4v5mLAYOkbvr6pTp1E4BSwTLXgpVtHzhJ+53lNQ
+Aug 21 17:19:06 freebsd sshd[1574]: Connection closed by 10.0.2.2 port 57706 [preauth]
+Aug 21 17:19:20 freebsd sshd[1576]: Connection closed by 10.0.2.2 port 57710 [preauth]
+Aug 21 17:20:16 freebsd sshd[1580]: error: PAM: Authentication error for user from 10.0.2.2
+Aug 21 17:20:16 freebsd sshd[1580]: Connection closed by authenticating user user 10.0.2.2 port 57712 [preauth]
+Aug 23 23:15:20 freebsd sshd[1585]: Accepted keyboard-interactive/pam for user from 10.0.2.2 port 57715 ssh2
+Aug 23 23:15:22 freebsd sshd[1588]: Received disconnect from 10.0.2.2 port 57715:11: disconnected by user
+Aug 23 23:15:22 freebsd sshd[1588]: Disconnected from user user 10.0.2.2 port 57715
+Aug 23 23:16:06 freebsd sudo[1594]:  user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /user/ccw/
+Aug 23 23:16:07 freebsd sudo[1594]:  user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /user/v1/
+Aug 23 23:16:08 freebsd sudo[1594]:  user2 : TTY=pts/0 ; PWD=/home/user2 ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /user/v2/
+Aug 23 23:16:16 freebsd sshd[1580]: error: PAM: Authentication error for user1 from 10.0.2.21
+Aug 25 10:22:16 freebsd sshd[1580]: error: PAM: Authentication error for user2 from 10.0.2.22
+Aug 25 10:23:16 freebsd sshd[1580]: error: PAM: Authentication error for user from 10.0.2.23
+Aug 25 10:24:16 freebsd sshd[1580]: error: PAM: Authentication error for user1 from 10.0.2.21
+Aug 25 10:25:16 freebsd sshd[1580]: error: PAM: Authentication error for user2 from 10.0.2.22
+Aug 25 10:30:55 freebsd sudo[1221]:  user : PWD=/home/user ; USER=root ; COMMAND=/bin/sh
+Aug 25 10:30:55 freebsd sudo[1230]:  user : PWD=/home/user ; USER=root ; COMMAND=/usr/local/bin/bash -l
+Sep 13 23:40:23 freebsd sshd[1269]: error: PAM: Authentication error for illegal user gitlab from 10.2.11.4
+Sep 13 23:40:23 freebsd sshd[1269]: Failed keyboard-interactive/pam for invalid user gitlab from 10.2.11.4 port 55362 ssh2
+Sep 13 23:40:23 freebsd sshd[1269]: Postponed keyboard-interactive for invalid user gitlab from 10.2.11.4 port 55362 ssh2 [preauth]
+Sep 22 19:19:46 freebsd su[20045]: BAD SU user to root on /dev/pts/0
+Sep 22 19:33:22 freebsd su[20068]: in prompt_tty(): caught signal 2
+Sep 22 19:38:11 freebsd sshd[679]: Server listening on :: port 22.
+Sep 22 19:38:11 freebsd sshd[679]: Server listening on 0.0.0.0 port 22.
+Sep 22 19:38:29 freebsd login[733]: login on ttyv0 as root
+Sep 22 19:38:29 freebsd login[733]: ROOT LOGIN (root) ON ttyv0
+Oct  1 22:29:36 freebsd sshd[20163]: error: PAM: Authentication error for xizhen from 10.2.11.27
+Oct  1 22:29:38 freebsd syslogd: last message repeated 2 times
+Oct  1 22:29:38 freebsd sshd[20163]: Connection reset by authenticating user xizhen 10.2.11.27 port 50790 [preauth]
+Oct  1 22:29:51 freebsd sudo[20168]:   xizhen : TTY=pts/0 ; PWD=/usr/home/xizhen ; USER=root ; COMMAND=/bin/cat /var/log/auth.log
